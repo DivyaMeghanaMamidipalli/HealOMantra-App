@@ -1,1 +1,75 @@
 @import "tailwindcss";
+
+@theme {
+  --font-family-helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-helvetica-light: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-helvetica-bold: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  --font-family-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-serif: "Helvetica Neue", Helvetica, Arial, serif;
+  
+  --font-weight-helvetica-light: 300;
+  --font-weight-helvetica-regular: 400;
+  --font-weight-helvetica-medium: 500;
+  --font-weight-helvetica-bold: 700;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: local('Helvetica Neue Light'), local('HelveticaNeue-Light'),
+       url('/fonts/HelveticaNeue-Light.woff2') format('woff2'),
+       url('/fonts/HelveticaNeue-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: local('Helvetica Neue'), local('HelveticaNeue'),
+       url('/fonts/HelveticaNeue.woff2') format('woff2'),
+       url('/fonts/HelveticaNeue.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: local('Helvetica Neue Medium'), local('HelveticaNeue-Medium'),
+       url('/fonts/HelveticaNeue-Medium.woff2') format('woff2'),
+       url('/fonts/HelveticaNeue-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: local('Helvetica Neue Bold'), local('HelveticaNeue-Bold'),
+       url('/fonts/HelveticaNeue-Bold.woff2') format('woff2'),
+       url('/fonts/HelveticaNeue-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Custom utility classes using @utility directive (Tailwind v4 feature) */
+@utility font-helvetica {
+  font-family: var(--font-family-helvetica);
+}
+
+@utility font-helvetica-light {
+  font-family: var(--font-family-helvetica);
+  font-weight: var(--font-weight-helvetica-light);
+}
+
+@utility font-helvetica-medium {
+  font-family: var(--font-family-helvetica);
+  font-weight: var(--font-weight-helvetica-medium);
+}
+
+@utility font-helvetica-bold {
+  font-family: var(--font-family-helvetica);
+  font-weight: var(--font-weight-helvetica-bold);
+}
