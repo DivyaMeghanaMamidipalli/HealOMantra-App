@@ -94,7 +94,7 @@ export default function Home() {
                     <p className="text-sm text-gray-500">Student for 6 months</p>
                   </div>
                 </div>
-                <p className="text-gray-600">"YogaConnect has transformed my practice. The personalized recommendations and community support keep me motivated and growing."</p>
+                <p className="text-gray-600">&quot;YogaConnect has transformed my practice. The personalized recommendations and community support keep me motivated and growing.&quot;</p>
               </div>
               
               {/* Testimonial 2 */}
@@ -108,7 +108,7 @@ export default function Home() {
                     <p className="text-sm text-gray-500">Student for 1 year</p>
                   </div>
                 </div>
-                <p className="text-gray-600">"As someone who was intimidated by yoga, this platform made it accessible. The teachers are supportive and the variety of classes is amazing."</p>
+                <p className="text-gray-600">&quot;As someone who was intimidated by yoga, this platform made it accessible. The teachers are supportive and the variety of classes is amazing.&quot;</p>
               </div>
               
               {/* Testimonial 3 */}
@@ -122,7 +122,7 @@ export default function Home() {
                     <p className="text-sm text-gray-500">Teacher</p>
                   </div>
                 </div>
-                <p className="text-gray-600">"Teaching through YogaConnect has allowed me to reach more students and build a community. The platform's tools make class management effortless."</p>
+                <p className="text-gray-600">&quot;Teaching through YogaConnect has allowed me to reach more students and build a community. The platform&apos;s tools make class management effortless.&quot;</p>
               </div>
             </div>
           </div>
