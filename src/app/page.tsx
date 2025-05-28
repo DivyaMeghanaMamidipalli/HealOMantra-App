@@ -30,7 +30,7 @@ export default function Home() {
                 alt="Yoga"
                 width={600}
                 height={500}
-                className="rounded-4xl shadow-xl object-cover"
+                className="rounded-4xl shadow-xl p-6 object-cover"
                 priority
               />
             </div>
